@@ -2300,6 +2300,11 @@ clean-css@4.2.x:
   dependencies:
     source-map "~0.6.0"
 
+clean-text-utils@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/clean-text-utils/-/clean-text-utils-1.1.17.tgz#ea7a0fc4104e78d058f23e47b2b19e2244d4f3b7"
+  integrity sha512-Y+1l2vrQwJbORnVrk9p0gSTgLtXIZRERvngyXTwmguaD/PMYvqj7FUF18/WZnwbGaJrFm99jafOhj0D4inx5vQ==
+
 cli-cursor@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
@@ -7948,7 +7953,7 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@16.8.4:
+react-dom@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
   integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
@@ -8022,7 +8027,7 @@ react-scripts@2.1.8:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.8.4:
+react@^16.8.4:
   version "16.8.4"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
   integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==

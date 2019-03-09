@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import getRandom from './api/petfinder/getRandom';
 
 class App extends Component {
+  
   render() {
+    getRandom()
     return (
       <div className="App">
         <header className="App-header">
