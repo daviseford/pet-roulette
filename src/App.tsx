@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import getRandom from './api/petfinder/getRandom';
+import { getPet, getRandomPet } from './api/petfinder/api'
 
 class App extends Component {
-  
+
+  async componentDidMount() {
+    const id = await getRandomPet()
+    const pet = await getPet(id)
+    console.log(pet)
+  }
+
   render() {
-    getRandom()
+
     return (
       <div className="App">
         <header className="App-header">

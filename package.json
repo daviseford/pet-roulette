@@ -7,6 +7,8 @@
     "@types/node": "11.11.0",
     "@types/react": "16.8.7",
     "@types/react-dom": "16.8.2",
+    "axios": "^0.18.0",
+    "axios-jsonp": "^1.0.2",
     "clean-text-utils": "^1.1.17",
     "lodash": "^4.17.11",
     "react": "^16.8.4",
